@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER" spacing="20" style="-fx-background-color: #2C3E50; -fx-padding: 30px;"
+      xmlns="http://javafx.com/javafx/21.0.5"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ru.itis.balckjack.ui.MainFXController">
+
+    <Label text="Blackjack Online" style="-fx-text-fill: white;">
+        <font>
+            <Font name="Arial" size="24"/>
+        </font>
+    </Label>
+
+    <Label text="Вы успешно подключены, ожидайте второго игрока" style="-fx-text-fill: white;">
+        <font>
+            <Font name="Arial" size="16"/>
+        </font>
+    </Label>
+</VBox>
